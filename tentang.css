@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: sans-serif; */
+  /* background-color: black; */
+}
+
+@font-face {
+  font-family: "American";
+  src: url("font/net american.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bold Font";
+  src: url("font/bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Thabit";
+  src: url("font/Thabit-Oblique.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Text Me";
+  src: url("font/textme.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#background {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+#co-background {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+/* Navbar */
+#navbar {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+#header-logo img {
+  width: 100px;
+  height: 60px;
+}
+
+#header-button {
+}
+
+#header-button ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+#header-button ul li {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  display: inline;
+  cursor: pointer;
+}
+
+#header-button ul li a {
+  text-decoration: none;
+  color: #fff;
+  /* font-weight: bold; */
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+  font-family: "American", serif;
+}
+
+#header-button ul li a:hover {
+  border-bottom: 2px solid #fff; /* Change to your desired color */
+}
+
+/* COntent */
+#container-about {
+  margin: 60px 0 0 0;
+  /* padding: 30px 0; */
+  width: 100%;
+}
+
+#about {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  height: 450px;
+  /* border: solid; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 50px;
+}
+
+#about-image {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#about-text {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+#about-us {
+  font-size: 60px;
+  /* font-weight: bold; */
+  font-family: "Bold Font";
+}
+
+#text-us1 {
+  padding: 20px 0;
+  font-family: "Thabit";
+  font-size: 16px;
+}
+
+#text-us2 {
+  font-size: 16px;
+  font-family: "Thabit";
+}
+
+/* Footer */
+#bg-footer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer {
+  width: 100%;
+  /* padding: 0 0 0 20px; */
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+#footer-logo {
+  padding: 20px 0 0 20px;
+}
+
+#text-copy {
+  padding: 24px 0 0 0;
+  font-family: "Text Me", serif;
+}

@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: sans-serif; */
+  /* background-color: black; */
+}
+
+@font-face {
+  font-family: "American";
+  src: url("font/net american.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bold Font";
+  src: url("font/bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Text Me";
+  src: url("font/textme.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#background {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+#co-background {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+/* Navbar */
+#navbar {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+#header-logo img {
+  width: 100px;
+  height: 60px;
+}
+
+#header-button {
+}
+
+#header-button ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+#header-button ul li {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  display: inline;
+  cursor: pointer;
+}
+
+#header-button ul li a {
+  text-decoration: none;
+  color: #fff;
+  /* font-weight: bold; */
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  transition: border 0.3s;
+  font-family: "American", serif;
+}
+
+#header-button ul li a:hover {
+  border-bottom: 2px solid #fff; /* Change to your desired color */
+}
+
+/* Content */
+
+#container-content {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 100%;
+}
+
+#content {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  height: 500px;
+  /* border: solid; */
+}
+
+#katalog {
+  text-align: center;
+  font-size: 32px;
+  /* font-weight: bold; */
+  font-family: "Bold Font", serif;
+}
+
+#content1 {
+  width: 100%;
+  padding: 20px 0 15px 0;
+  margin: 0 auto;
+  display: flex;
+  height: 200px;
+  gap: 30px;
+}
+
+#content2 {
+  width: 100%;
+  padding: 15px 0 0 0;
+  margin: 0 auto;
+  display: flex;
+  height: 200px;
+  gap: 30px;
+}
+
+#barang {
+  border: solid #fff;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+#barang img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Overlay */
+#overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+/* Modal */
+/* Overlay */
+#overlay {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+/* Modal */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top of overlay */
+  left: 475px;
+  top: 100px;
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  /* border: 5px solid #888; */
+  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+#product-name {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#product-size {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+p#product-price {
+  font-size: 18px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Footer */
+#bg-footer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#footer {
+  width: 100%;
+  /* padding: 0 0 0 20px; */
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+#footer-logo {
+  padding: 15px 0 0 20px;
+}
+
+#text-copy {
+  padding: 19px 0 0 0;
+  font-family: "Text Me", serif;
+}
